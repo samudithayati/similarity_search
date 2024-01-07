@@ -5,5 +5,8 @@ A ~18 million molecules database was compiled using Chembl and other datasets. T
 
 
 ## Usage
-Use a csv file with all the smiles you need to search for example 
-[result](https://github.com/samudithayati/similarity_search/blob/main/example.csv)
+Use a [CSV](https://github.com/samudithayati/similarity_search/blob/main/example.csv) file with all the smiles you need to use in similarity search.
+If you are using a SLURM in an HPC use the submission script to submit the jobs by changing the appropriate keywords and pointers.
+Use the Python script to perform the distance calculation for each molecule in  the database.
+
+The calculated distance will structured in a dictionary format. The dictionary key will be the SMILES strings. Two sorting scripts were used to sort the l2 and cosine distances. These scripts will output the similarity search result for given distance matrices in a CSV file for each molecule.  
