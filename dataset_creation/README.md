@@ -9,7 +9,7 @@ python3 [dictionary_creation.py](https://github.com/samudithayati/similarity_sea
 python3 dictionary_creation.py 001.csv
 ```
 
-use python script [bash_create.py](https://github.com/samudithayati/similarity_search/blob/main/dataset_creation/bash_create.py) to create bash submission files for each CSV files. 
+Use Python script [bash_create.py](https://github.com/samudithayati/similarity_search/blob/main/dataset_creation/bash_create.py) to create bash submission files for each CSV file to generate rdkit properties for each CSV file. 
 
 ```
 for x in {1..5};do sbatch $x.sh;done
