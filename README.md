@@ -6,4 +6,4 @@ A ~18 million molecules database was compiled using Chembl and other datasets. T
 
 ## Usage
 Use a csv file with all the smiles you need to search for example 
-![result](https://github.com/samudithayati/similarity_search/example.csv)
+[result](https://github.com/samudithayati/similarity_search/example.csv)
