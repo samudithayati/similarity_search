@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  /work/yatiwely/similarity-12-12-22/new_similarity_search.py:37 in <module>  data=dt.fread('work/yatiwely/similarity_11-22-2022/dataset/zinc_our_final_rdkit_minmax.csv')
+  $PY/datatable/utils/fread.py:122 in _resolve_source_any                     return _resolve_source_file(src, tempfiles)
+  $PY/datatable/utils/fread.py:204 in _resolve_source_file                    raise ValueError("File %s`%s` does not exist"
+  (with $PY = /work/yatiwely/ENVS/rdkit/lib/python3.9/site-packages/)
+
+ValueError: File /work/yatiwely/similarity-12-12-22/work/yatiwely/similarity_11-22-2022/dataset/zinc_our_final_rdkit_minmax.csv does not exist

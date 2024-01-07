@@ -1,0 +1,7 @@
+  0%|          | 0/17279270 [00:00<?, ?it/s]  0%|          | 0/17279270 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/work/yatiwely/similarity-12-12-22/run_similarity.py", line 51, in <module>
+    similarity_search(molecule_list,filename,DT_grover_data,grover_data,hoips_grover)
+  File "/work/yatiwely/similarity-12-12-22/run_similarity.py", line 33, in similarity_search
+    l2[data[i,0]]=np.linalg.norm(q1-q2)  #l2 calculation and asign it a dictionary
+NameError: name 'q1' is not defined
